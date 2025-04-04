@@ -1,22 +1,43 @@
-# TESTER-ADVENTURE
+# 🧪 TESTER-ADVENTURE
 
-**Textová hra v Pythone** s testovacími hádankami, inventárom a pascami.  
-Cieľom je prežiť ako junior tester v temnej jaskyni plnej nástrah.
+Interaktívna textová hra napísaná v Pythone, v ktorej sa hráč ocitá v jaskyni plnej testerských hádaniek, pascí a rozhodnutí. Projekt vznikol ako tréning základov Pythonu a manuálneho testovania.
 
-## 🕹️ Funkcie hry
+---
 
-- Hráč sa pohybuje medzi miestnosťami (`vľavo`, `vpravo`, `dopredu`)
-- V miestnostiach na neho čakajú:
-  - **pasce**, ktoré uberajú životy
-  - **hádanky** z oblasti testovania softvéru
-  - **kľúč**, ktorý je potrebný na únik z jaskyne
-- Hráč má **inventár** a **3 životy**
-- Po skončení hry môže hrať znova
+## 🎮 O hre
 
-## ▶️ Spustenie hry
+- Hráč má 3 životy a pohybuje sa v jaskyni výberom smerov: `vľavo`, `vpravo`, `dopredu`.
+- V každej miestnosti sa môže stať niečo iné:
+  - `vľavo` – pasca (strácaš život),
+  - `vpravo` – hádanka z oblasti testovania,
+  - `dopredu` – východ z jaskyne (potrebuješ kľúč).
+- Kľúč získaš, ak správne odpovieš na jednu z náhodných testerských otázok.
+- Hra sa končí, keď:
+  - hráč získa kľúč a unikne,
+  - alebo stratí všetky životy.
 
-1. Stiahni si súbor `tester_adventure.py`
-2. Spusti cez terminál alebo v editore (napr. VS Code):
+---
+
+## 🔑 Cieľ projektu
+
+- Precvičiť si **základy Pythonu**: podmienky, cykly, funkcie, zoznamy, slovníky, množiny.
+- Vytvoriť jednoduchý **testovateľný projekt** s použitím:
+  - vlastnej logiky,
+  - simulovaného testovania pomocou manuálnych **test cases**.
+
+---
+
+## 🧪 Testovanie
+
+Testovací dokument: [`TESTY.md`](./TESTY.md)  
+Obsahuje manuálne testy: pozitívne, negatívne aj zlyhávajúci scenár.
+
+---
+
+## 🚀 Spustenie
+
+1. Otvor súbor [`tester_adventure.py`](./tester_adventure.py)
+2. Alebo si ho stiahni a spusť lokálne:
 
 ```bash
 python tester_adventure.py
